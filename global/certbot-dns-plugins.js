@@ -336,13 +336,13 @@ dns_luadns_token = 0123456789abcdef0123456789abcdef`,
 	//####################################################//
 	netcup: {
 		display_name:    'netcup',
-		package_name:    'certbot-dns-netcup',
+		package_name:    'dns-netcup',
 		package_version: '1.0.0',
 		dependencies:    '',
-		credentials:     `certbot_dns_netcup:dns_netcup_customer_id  = 123456
-certbot_dns_netcup:dns_netcup_api_key      = 0123456789abcdef0123456789abcdef01234567
-certbot_dns_netcup:dns_netcup_api_password = abcdef0123456789abcdef01234567abcdef0123`,
-		full_plugin_name: 'certbot-dns-netcup:dns-netcup',
+		credentials:     `dns_netcup_customer_id  = 123456
+dns_netcup_api_key      = 0123456789abcdef0123456789abcdef01234567
+dns_netcup_api_password = abcdef0123456789abcdef01234567abcdef0123`,
+		full_plugin_name: 'dns-netcup',
 	},
 	//####################################################//
 	njalla: {
